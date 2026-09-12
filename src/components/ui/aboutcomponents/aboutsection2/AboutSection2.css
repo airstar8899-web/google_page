@@ -1,0 +1,65 @@
+.sectionTwoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 60px;
+    gap: 40px;
+}
+
+.sectionTwoText{
+    flex: 1;
+    max-width: 450px;
+}
+
+.sectionTwoText h2{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.sectionTwoText p{
+    font-size: 18px;
+    color: #444;
+    margin: 0 0 25px 0;
+}
+
+.sectionTwoImage{
+    flex: 1;
+    max-width: 550px;
+}
+
+.sectionTwoImage video{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+@media (max-width: 1024px){
+      .sectionTwoContainer{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 40px 20px;
+        text-align: left; 
+        line-height: 1.4;
+    }
+
+     .sectionTwoText h2{
+        font-size: 45px;
+    }
+}
+@media (max-width: 768px) {
+    .sectionTwoContainer{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 40px 20px;
+        text-align: left;
+    }
+
+    .sectionTwoText h2{
+        font-size: 38px;
+    }
+
+    .sectionTwoText, .sectionTwoImage{
+        max-width: 100%;
+    }
+}
