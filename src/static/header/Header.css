@@ -1,11 +1,13 @@
 .headerContainer {
-  /* background-color: red; */
   display: flex;
   padding: 30px 0px;
   padding-left: 30px;
   gap: 40px;
   font-size: 17px;
   font-weight: 400;
+  position: relative;
+  z-index: 10;
+  background-color: white;
 }
 
 .navigation{
