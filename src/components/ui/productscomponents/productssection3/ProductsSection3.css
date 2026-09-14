@@ -1,0 +1,57 @@
+.productsSection3Grid{
+    display: flex;
+    gap: 20px;
+    padding: 0 40px 40px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.gridColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gridCard {
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+}
+
+.gridCardImage {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.gridCardImage img {
+  width: 100%;
+  display: block;
+}
+
+.gridCardLabel {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333;
+  margin: 0 0 15px 0;
+}
+
+.gridCardText {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 15px 0;
+  line-height: 1.4;
+}
+
+.linkIcon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .productsSection3Grid {
+    flex-direction: column;
+  }
+}

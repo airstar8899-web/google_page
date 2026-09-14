@@ -1,0 +1,22 @@
+.GeminiSection{
+    text-align: center;
+    padding: 60px 20px 100px 20px;
+}
+
+.geminiLogo{
+    width: 58px;
+    height: 58px;
+    margin-bottom: 15px;
+}
+
+.GeminiSection h2{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+@media (max-width: 768px) {
+    .chatGeminiSection h2{
+        font-size: 28px;
+    }
+}

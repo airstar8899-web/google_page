@@ -1,0 +1,63 @@
+.section6Container{
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.section6Container h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+}
+
+.section6Row{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section6Card{
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.section6Card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.section6Text{
+    padding: 20px;
+}
+
+.section6Text h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.section6Text p{
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+}
+
+.section6Link{
+    color: #1a73e8;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .section6Row{
+        flex-direction: column;
+    }
+}

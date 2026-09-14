@@ -1,0 +1,99 @@
+.productsHeroContainer {
+  padding: 100px 40px 0 40px;
+  text-align: center;
+}
+.productsIconRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.productsIconStrip {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.scrollTrack {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+  animation: scrollRight 15s linear infinite;
+}
+
+@keyframes scrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.iconBox {
+  font-size: 28px;
+}
+
+.productsHeroContainer h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  color: #1a1a1a;
+  font-family: "Google Sans" Arial Helvetica sans-serif;
+  /* line-height: 1.4; */
+}
+.quickLinksBar {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 16px 30px;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Google Sans" Arial Helvetica sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.quickLinksBar span {
+  cursor: pointer;
+}
+.productsHeroImage {
+  height: 65vh;
+  background-image: url("../../../../assets/producthero.webp");
+  background-size: cover;
+  background-position: top center;
+  border-radius: 20px 20px 0 0;
+  width:auto;
+   margin-left: -40px;
+  margin-right: -40px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1024px) {
+  .productsHeroContainer h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .productsHeroContainer h1 {
+    font-size: 28px;
+  }
+
+  .quickLinksBar {
+    gap: 12px;
+    padding: 14px 16px;
+    font-size: 13px;
+  }
+
+  .productsHeroImage {
+    height: 220px;
+  }
+}
+
+
+
