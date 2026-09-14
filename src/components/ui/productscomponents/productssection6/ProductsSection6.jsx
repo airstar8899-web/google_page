@@ -4,8 +4,18 @@ import pixelImg from "../../../../assets/phone2.webp";
 
 const ProductsSection6 = () => {
   const cards = [
-    { image: androidImg, title: "All things Android", text: "Check out a whole world of devices that work better together, plus AI features to help throughout your day.", link: "See what's new" },
-    { image: pixelImg, title: "Our Pixel portfolio", text: "See the latest Pixel lineup — from phones and watches, to earbuds and tablets.", link: "Shop now" },
+    {
+      image: androidImg,
+      title: "All things Android",
+      text: "Check out a whole world of devices that work better together, plus AI features to help throughout your day.",
+      link: "See what's new",
+    },
+    {
+      image: pixelImg,
+      title: "Our Pixel portfolio",
+      text: "See the latest Pixel lineup — from phones and watches, to earbuds and tablets.",
+      link: "Shop now",
+    },
   ];
 
   return (

@@ -1,8 +1,8 @@
-.sectionOneContainer{
-    padding: 50px 20px;
-    background-color: #f3f5fb;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.sectionOneContainer {
+  padding: 50px 20px;
+  background-color: #f3f5fb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }

@@ -11,10 +11,7 @@ const AboutSection4 = () => {
           announcements, to everyday tips.
         </p>
       </div>
-      <Button name="Subscribe" 
-      color="#0b57d0"
-      btnColor="#d3e3fd"
-      />
+      <Button name="Subscribe" color="#0b57d0" btnColor="#d3e3fd" />
     </div>
   );
 };

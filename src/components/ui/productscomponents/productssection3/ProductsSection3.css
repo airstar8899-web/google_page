@@ -1,9 +1,9 @@
-.productsSection3Grid{
-    display: flex;
-    gap: 20px;
-    padding: 0 40px 40px 40px;
-    max-width: 1200px;
-    margin: 0 auto;
+.productsSection3Grid {
+  display: flex;
+  gap: 20px;
+  padding: 0 40px 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .gridColumn {
   flex: 1;

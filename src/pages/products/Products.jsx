@@ -7,18 +7,17 @@ import ProductsSection5 from "../../components/ui/productscomponents/productssec
 import ProductsSection6 from "../../components/ui/productscomponents/productssection6/ProductsSection6";
 
 const Products = () => {
-    return(
-        <div>
-    
-            <ProductsHero />
-            <ProductsSection1 />
-            <ProductsSection2 />
-            <ProductsSection3 />
-            <ProductsSection4 />
-            <ProductsSection5 />
-            <ProductsSection6 />
-        </div>
-    );
+  return (
+    <div>
+      <ProductsHero />
+      <ProductsSection1 />
+      <ProductsSection2 />
+      <ProductsSection3 />
+      <ProductsSection4 />
+      <ProductsSection5 />
+      <ProductsSection6 />
+    </div>
+  );
 };
 
 export default Products;

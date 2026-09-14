@@ -17,13 +17,7 @@ const AboutSection2 = () => {
       </div>
 
       <div className="sectionTwoImage">
-        <video
-          src="/gemini-desktop.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
+        <video src="/gemini-desktop.mp4" autoPlay loop muted playsInline />
       </div>
     </div>
   );

@@ -1,59 +1,57 @@
-.sectionFourCard{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f3f5fb;
-    border-radius: 20px;
-    padding: 40px 50px;
-    margin: 80px 350px;
-    gap: 30px;
-    /* background-color: red; */
+.sectionFourCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f5fb;
+  border-radius: 20px;
+  padding: 40px 50px;
+  margin: 80px 350px;
+  gap: 30px;
+  /* background-color: red; */
 }
 
-.sectionFourText h2{
-    font-size: 35px;
-    font-weight: 400;
-    margin: 0 0 10px 0;
+.sectionFourText h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
 }
 
-.sectionFourText p{
-    font-size: 15px;
-    color: #555;
-    margin: 0;
+.sectionFourText p {
+  font-size: 15px;
+  color: #555;
+  margin: 0;
 }
 
 @media (max-width: 1024px) {
-    .sectionFourCard{
-        margin: 65px 100px;
-        flex-direction: column;
-        align-items: flex-start;
-        line-height: 1.6;
-        
-    }
+  .sectionFourCard {
+    margin: 65px 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.6;
+  }
 
-     .sectionFourText h2{
-        font-size: 27px;
-    }
+  .sectionFourText h2 {
+    font-size: 27px;
+  }
 
-    .sectionFourText p{
-        font-size: 18px;
-    }
-    
+  .sectionFourText p {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 768px) {
-    .sectionFourCard{
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 30px 20px;
-        padding: 30px 25px;
-    }
+  .sectionFourCard {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 20px;
+    padding: 30px 25px;
+  }
 
-    .sectionFourText h2{
-        font-size: 25px;
-    }
+  .sectionFourText h2 {
+    font-size: 25px;
+  }
 
-    .sectionFourText p{
-        font-size: 18px;
-    }
+  .sectionFourText p {
+    font-size: 18px;
+  }
 }

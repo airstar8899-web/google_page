@@ -11,9 +11,8 @@ const AboutHero = () => {
           and 3.8 Flash Cyber
         </h1>
         <p>
-            Our newest Gemini models deliver 
-            next-generation intelligence for 
-            agentic workflows and cybersecurity.
+          Our newest Gemini models deliver next-generation intelligence for
+          agentic workflows and cybersecurity.
         </p>
         <Button name="Learn More" />
       </div>

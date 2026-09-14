@@ -5,15 +5,15 @@ import AboutSection3 from "../../components/ui/aboutcomponents/aboutsection3/Abo
 import AboutSection4 from "../../components/ui/aboutcomponents/aboutsection4/AboutSection4";
 
 const About = () => {
-    return(
-        <div>
-            <AboutHero />
-            <AboutSection1 />
-            <AboutSection2 />
-            <AboutSection3 />
-            <AboutSection4 />
-        </div>
-    );
+  return (
+    <div>
+      <AboutHero />
+      <AboutSection1 />
+      <AboutSection2 />
+      <AboutSection3 />
+      <AboutSection4 />
+    </div>
+  );
 };
 
 export default About;

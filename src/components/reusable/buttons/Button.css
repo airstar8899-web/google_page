@@ -1,19 +1,17 @@
-.button{
-    padding: 12px 24px;
-    font-family: "Google Sans", sans-serif;
-    background-color: #1a73e8;
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    color: white;
-    font-size: 16px;
-    /* white-space: nowrap; */
+.button {
+  padding: 12px 24px;
+  font-family: "Google Sans", sans-serif;
+  background-color: #1a73e8;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  /* white-space: nowrap; */
 }
 
 @media (max-width: 500px) {
-    .button{
-        width:100%;
-      
-       
-    }
+  .button {
+    width: 100%;
+  }
 }
