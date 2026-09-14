@@ -1,6 +1,6 @@
 import "./ProductsSection5.css";
 import Button from "../../../reusable/buttons/Button";
-import geminiLiveImg from "../../../../assets/slide_img.png";
+import geminiLiveVideo from "../../../../assets/gemini-live.mp4";
 
 const ProductsSection5 = () => {
   return (
@@ -12,7 +12,7 @@ const ProductsSection5 = () => {
       </div>
 
       <div className="geminiLivePhone">
-        <img src={geminiLiveImg} alt="Gemini Live" />
+        <video src={geminiLiveVideo} autoPlay loop muted playsInline />
       </div>
     </div>
   );
