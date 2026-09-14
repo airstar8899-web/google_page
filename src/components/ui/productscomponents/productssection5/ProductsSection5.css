@@ -2,17 +2,18 @@
   background-color: #e8eefc;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 60px;
   padding: 80px 40px;
 }
 
 .geminiLiveText {
   max-width: 350px;
+  line-height: normal;
 }
 
 .geminiLiveText h2 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 400;
   margin: 0 0 15px 0;
 }
@@ -35,7 +36,6 @@
   border-radius: 12px;
   display: block;
 }
-
 @media (max-width: 768px) {
   .geminiLiveSection {
     flex-direction: column;
