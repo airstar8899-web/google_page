@@ -38,7 +38,7 @@
 }
 @media (max-width: 768px) {
   .geminiLiveSection {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 50px 20px;
     text-align: center;
   }
