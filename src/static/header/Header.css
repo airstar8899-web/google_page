@@ -24,3 +24,21 @@
     background-color: #1a73e8;
     margin-top: 18px;
 }
+
+@media (max-width: 768px) {
+    .headerContainer{
+        padding: 15px;
+        gap: 15px;
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+
+    .logo img{
+        width: 70px;
+    }
+
+    .navigation{
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+}
